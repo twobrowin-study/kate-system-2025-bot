@@ -1,0 +1,4 @@
+apiVersion: v2
+name: code-bot
+version: 1.0.0
+appVersion: 0.0.0

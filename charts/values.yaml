@@ -1,0 +1,35 @@
+container:
+  image: twobrowin/kate-system-2025-bot:1.0.2
+  imagePullPolicy: IfNotPresent
+
+  env:
+  - name: TZ
+    value: Europe/Moscow
+
+  - name: TG_TOKEN
+    valueFrom:
+      secretKeyRef:
+        name: code-bot-2025
+        key: tg_token
+
+  - name: TG_ADMIN_CHAT
+    valueFrom:
+      secretKeyRef:
+        name: code-bot-2025
+        key: tg_admin_chat
+
+  - name: MINIO_ACCESS_KEY
+    value: code-bot-2025
+  - name: MINIO_SECRET_KEY
+    valueFrom:
+      secretKeyRef:
+        name: code-bot-2025
+        key: minio_secret_key
+  
+  resources:
+    requests:
+      cpu: 100m
+      memory: 100M
+    limits:
+      cpu: 200m
+      memory: 200M
