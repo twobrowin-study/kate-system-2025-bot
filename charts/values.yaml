@@ -1,5 +1,5 @@
 container:
-  image: twobrowin/kate-system-2025-bot:1.0.3
+  image: twobrowin/kate-system-2025-bot:1.0.6
   imagePullPolicy: IfNotPresent
 
   env:
