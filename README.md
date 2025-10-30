@@ -5,7 +5,7 @@
 ## Сборка
 
 ```bash
-docker build . --push -t twobrowin/kate-system-2025-bot:1.0.2
+docker build . --push -t twobrowin/kate-system-2025-bot:1.0.3
 ```
 
 ## Разёртывание

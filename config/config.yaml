@@ -41,13 +41,13 @@ node_codes:
     message: Введите код доступа...
   
   - name: "NODE: VOID"
-    code: null
+    code: "3241"
     content: audio_2025-10-29_23-58-35.ogg
     type: voice
     message: Введите код доступа...
   
   - name: "NODE: RELEASE"
-    code: 0985
+    code: "0985"
     content: audio_2025-10-29_23-58-35.ogg
     type: voice
     message: Данные повреждены, введите код восстановления логирования.
