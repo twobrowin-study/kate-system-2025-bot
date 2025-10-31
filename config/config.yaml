@@ -24,31 +24,31 @@ help_message: Введите код с бейджика
 node_codes:
   - name: "NODE: ECHO"
     code: "3657"
-    content: audio_2025-10-29_23-58-35.ogg
+    content: Запись ECHO.MP3
     type: voice
     message: Введите код доступа...
 
   - name: "NODE: SERENTY"
     code: "1538"
-    content: audio_2025-10-29_23-58-35.ogg
+    content: Запись SERENTY.MP3
     type: voice
     message: Введите код доступа...
   
   - name: "NODE: AURORA"
     code: "6678"
-    content: audio_2025-10-29_23-58-35.ogg
+    content: Запись AURORA.MP3
     type: voice
     message: Введите код доступа...
   
   - name: "NODE: VOID"
     code: "3241"
-    content: audio_2025-10-29_23-58-35.ogg
+    content: Запись VOID.MP3
     type: voice
     message: Введите код доступа...
   
   - name: "NODE: RELEASE"
     code: "0985"
-    content: audio_2025-10-29_23-58-35.ogg
+    content: Запись RELEASE.MP3
     type: voice
     message: Данные повреждены, введите код восстановления логирования.
 

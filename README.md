@@ -5,7 +5,7 @@
 ## Сборка
 
 ```bash
-docker build . --push -t twobrowin/kate-system-2025-bot:1.0.6
+docker build . --push -t twobrowin/kate-system-2025-bot:1.0.7
 ```
 
 ## Разёртывание
@@ -15,6 +15,6 @@ docker build . --push -t twobrowin/kate-system-2025-bot:1.0.6
 * Доступ в Minio, ключ доступа code-bot-2025
 * Заполнить секреты и переменные окружения
 
-```
+```bash
 helm upgrade --install --debug code-bot-2025 ./charts/ -n public -f ./charts/values.yaml
 ```
